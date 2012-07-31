@@ -16,7 +16,7 @@ Simple and mass mailer plugin.Admin can have option pagination in list all users
 
 In pro version admin can have Full wysiwyg editor available for typing email.
 
-**Find Vertical News Scroller Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-mass-email-plugin.html)**
+**Find Mass Email Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-mass-email-plugin.html)**
 
 
 =Features=
@@ -57,8 +57,11 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 ### Usage ###
 
 1.Use of wordpress mass email to users is easy after activating plugin go to Mass Email menu.
+
 2.Select users you want to send email.
+
 3.Add some html message and click on send email to users.
+
 4.Thats it your email is sent.
 
 
