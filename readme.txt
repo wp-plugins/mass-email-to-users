@@ -38,6 +38,9 @@ In pro version admin can have Full wysiwyg editor available for typing email.
 
 4.Admin can search user with email,username,user nice name and user display name.
 
+5.No advertising.
+
+
 
 
 [Get Support](http://my-php-scripts.net/) 
