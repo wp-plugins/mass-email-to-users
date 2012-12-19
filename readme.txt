@@ -38,7 +38,9 @@ In pro version admin can have Full wysiwyg editor available for typing email.
 
 4.Admin can search user with email,username,user nice name and user display name.
 
-5.No advertising.
+5.Admin can extra place holders like [first_name],[last_name],[nickname],[user_email],[user_nicename],[display_name].
+
+6.No advertising.
 
 
 
