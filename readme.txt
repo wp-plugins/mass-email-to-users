@@ -38,9 +38,13 @@ In pro version admin can have Full wysiwyg editor available for typing email.
 
 4.Admin can search user with email,username,user nice name and user display name.
 
-5.Admin can extra place holders like [first_name],[last_name],[nickname],[user_email],[user_nicename],[display_name].
+5.Admin can use extra place holders like [first_name],[last_name],[nickname],[user_email],[user_nicename],[display_name].
 
-6.No advertising.
+6.Now pro version has email queue just select users and add theme to queue.Admin can go through any page and select users and add theme to email queue and send all queue email at once.
+
+7.Now admin can view the list of users who has unsbuscribe from all emails.Admin can resubscribe those users who has ubscribe.
+
+8.No advertising.
 
 
 
@@ -77,6 +81,8 @@ This plugin is easy to install like other plug-ins of Wordpress as you need to j
 3. Mass Email Pro Version Search Users.
 4. Mass Email Pro Version With Wysiwyg Editor.
 5. Mass Email Pro Add Unsubscribe Link.
+6. Unsubscribers List.
+7. Mass email to Users- Email Queue.
 
 == License ==
 
