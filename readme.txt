@@ -1,5 +1,5 @@
 === Mass Email To users ===
-Contributors: Nikunj Gandhi
+Contributors:nik00726
 Tags:mass eamil,send email to users,WordPress Mailer,WordPress mass email,WordPress Email Marketing,WordPress search user and send emails,WordPress Mass Email,WordPress bulk email,WordPress email sender
 Donate link: http://www.my-php-scripts.net/donate_for_mass_email.php
 Requires at least:3.0
