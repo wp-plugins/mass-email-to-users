@@ -66,7 +66,7 @@
         
         $mailheaders .= "MIME-Version: 1.0\n";
         $mailheaders .= "X-Priority: 1\n";
-        $mailheaders .= "Content-Type: text/html; charset=\"iso-8859-1\"\n";
+        $mailheaders .= "Content-Type: text/html; charset=\"UTF-8\"\n";
         $mailheaders .= "Content-Transfer-Encoding: 7bit\n\n";
         $mailheaders .= "From: $from_name <$from_email>" . "\r\n";
         //$mailheaders .= "Bcc: $emailTo" . "\r\n";
