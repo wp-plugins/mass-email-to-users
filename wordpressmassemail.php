@@ -1,11 +1,11 @@
 <?php
   /* 
     Plugin Name: WordPress Mass Email to users
-    Plugin URI: http://www.postfreeadvertising.com
-    Description: Plugin for send mass email to users
-    Author: Nik Gandhi <webmaster@my-php-scripts.net>
+    Plugin URI:http://www.i13websolution.com
+    Description: lugin for send mass email to users
+    Author:I Thirteen Web Solution
     Version:1.0
-    Author URI: http://www.my-php-scripts.net/ 
+    Author URI:http://www.i13websolution.com
 */  
  
  wp_enqueue_script('jquery');  
@@ -29,13 +29,13 @@
  <table><tr><td><a href="https://twitter.com/FreeAdsPost" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @FreeAdsPost</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
         <td>
-        <a target="_blank" title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=nik_gandhi007@yahoo.com&item_name=Wp%20Mass%20email&item_number=mass%20email%20support&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8">
-        <img id="help us for free plugin" height="30" width="90" src="http://www.postfreeadvertising.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
+        <a target="_blank" title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=nvgandhi123@gmail.com&item_name=Wp%20Mass%20email&item_number=mass%20email%20support&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8">
+        <img id="help us for free plugin" height="30" width="90" src="http://www.i13websolution.com/images/paypaldonate.jpg" border="0" alt="help us for free plugin" title="help us for free plugin">
         </a>
         </td>
         </tr>
         </table>
-<h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-mass-email-plugin.html">Update to WordPress Mass Email Pro</a></h3>
+<h3 style="color: blue;"><a target="_blank" href="http://www.i13websolution.com/wordpress-pro-plugins/wordpress-bulk-email-pro-plugin.html">Update to WordPress Mass Email Pro</a></h3>
 <?php         
  
  switch($action){
