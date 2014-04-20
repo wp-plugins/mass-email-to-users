@@ -111,7 +111,7 @@
        $urlCss=$url."styles.css";
  ?>
  <div style="width: 100%;">  
- <div style="float:left;width:70%;" >
+ <div style="float:left;width:100%;" >
  <script src="<?php echo $urlJS; ?>"></script>
  
  <link rel='stylesheet' href='<?php echo $urlCss; ?>' type='text/css' media='all' />
@@ -158,7 +158,7 @@
      <th scope="row" style="width:30%;text-align: right">Email Body *</th>
      <td>    
        <div class="wrap">
-       <textarea id="txtArea"  name="txtArea" class="ckeditor" cols="120" rows="10"></textarea>
+       <textarea id="txtArea"  name="txtArea" class="ckeditor" cols="100" rows="10"></textarea>
        <div style="clear: both;"></div><div></div>                       
        </div>
         <input type="hidden" name="editor_val" id="editor_val" />  
@@ -232,17 +232,17 @@
  </div>
    <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;"> 
             
-             <div class="postbox" style="width: 200px !important;"> 
-              <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
+             <div class="postbox" style="width: 400px !important;"> 
+              <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
               <div class="inside">
-                   <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="230" height="200" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
+                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
 
                   <div style="margin:10px 5px">
           
                   </div>
           </div></div>
            
-           <div class="postbox" style="width: 200px !important;"> 
+           <div class="postbox" style="width: 400px !important;"> 
               <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
               <div class="inside">
                    <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="230" height="200" border="1" ALT="Click to Visit"></a></center>
@@ -417,9 +417,9 @@
       } 
     ?>
   </div>
- <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
-           
-           <div class="postbox"> 
+ <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:left;"> 
+            
+             <div class="postbox" style="width: 400px !important;"> 
               <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
               <div class="inside">
                    <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
@@ -429,17 +429,18 @@
                   </div>
           </div></div>
            
-             <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Hosting</h3> 
+           <div class="postbox" style="width: 400px !important;"> 
+              <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
               <div class="inside">
-                   <center><a target="_blank" href="http://www.shareasale.com/r.cfm?b=202505&amp;u=675922&amp;m=24570&amp;urllink=&amp;afftrack="><img src="http://www.shareasale.com/image/24570/thesis-300x250-1.png" alt="Thesis Theme for WordPress:  Options Galore and a Helpful Support Community" border="0" /></a></center>
+                   <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="230" height="200" border="1" ALT="Click to Visit"></a></center>
 
                   <div style="margin:10px 5px">
           
                   </div>
           </div></div>
            
-          </div>
+           
+           </div>
 </div>               
     <?php
      break;
