@@ -2,7 +2,7 @@
   /* 
     Plugin Name: WordPress Mass Email to users
     Plugin URI:http://www.i13websolution.com
-    Description: lugin for send mass email to users
+    Description:Plugin for send mass email to registered users
     Author:I Thirteen Web Solution
     Version:1.0
     Author URI:http://www.i13websolution.com
