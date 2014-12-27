@@ -3,7 +3,7 @@ Contributors:nik00726
 Tags:mass eamil,send email to users,WordPress Mailer,WordPress mass email,WordPress Email Marketing,WordPress search user and send emails,WordPress Mass Email,WordPress bulk email,WordPress email sender
 Donate link: http://www.i13websolution.com/donate_for_mass_email.php
 Requires at least:3.0
-Tested up to:4.0
+Tested up to:4.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
@@ -11,7 +11,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-**Now Support Upto WordPress 4.0**
+**Now Support Upto WordPress 4.1**
 
 Mass Email To Users is plugin for send mass email to wordpress users.Admin can send a email wordpress users together. 
  

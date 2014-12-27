@@ -1,23 +1,33 @@
 <?php
   /* 
     Plugin Name: WordPress Mass Email to users
-    Plugin URI:http://www.i13websolution.com
+    Plugin URI:http://www.i13websolution.com/wordpress-bulk-email-pro-plugin.html
     Description:Plugin for send mass email to registered users
     Author:I Thirteen Web Solution
     Version:1.0
-    Author URI:http://www.i13websolution.com
+    Author URI:http://www.i13websolution.com/wordpress-bulk-email-pro-plugin.html
 */  
  
- wp_enqueue_script('jquery');  
-  add_action('admin_menu',    'massemail_plugin_menu');  
+error_reporting(0);
+//add_action( 'admin_init', 'massemail_plugin_admin_init' );
+set_time_limit(5000);
+
+add_action('admin_menu',    'massemail_plugin_menu');  
  
   function massemail_plugin_menu(){
   
-    add_menu_page(__('Mass Email'), __("Mass Email"), 'administrator', 'Mass-Email','massEmail_func');
-    
+    $hook_suffix_mass_email_p=add_menu_page(__('Mass Email'), __("Mass Email"), 'administrator', 'Mass-Email','massEmail_func');
+    add_action( 'load-' . $hook_suffix_mass_email_p , 'massemail_plugin_admin_init' );
   }
 
  
+  function massemail_plugin_admin_init(){
+  	 
+  	$url = plugin_dir_url(__FILE__);
+  	wp_enqueue_script('jquery');
+  	wp_enqueue_script( 'jqueryValidate', $url.'js/jqueryValidate.js' );
+  
+  }
  
  function massEmail_func(){
    
@@ -85,6 +95,7 @@
         $setPerPage=$_POST['setPerPage'];
         
         echo "<script>location.href='". $adminUrl."admin.php?page=Mass-Email&entrant=$entrant&setPerPage=$setPerPage"."';</script>"; 
+        exit;
      
      }
     else{
@@ -94,6 +105,7 @@
        
            update_option( 'mass_email_err', 'Unable to send email to users.' );
            echo "<script>location.href='". $adminUrl."admin.php?page=Mass-Email&entrant=$entrant&setPerPage=$setPerPage"."';</script>";
+           exit;
     } 
    break;
        
@@ -107,13 +119,10 @@
  ?>    
 <h3>Send Email to Users</h3>  
 <?php  $url = plugin_dir_url(__FILE__);
-       $urlJS=$url."js/jqueryValidate.js";
        $urlCss=$url."styles.css";
  ?>
  <div style="width: 100%;">  
  <div style="float:left;width:100%;" >
- <script src="<?php echo $urlJS; ?>"></script>
- 
  <link rel='stylesheet' href='<?php echo $urlCss; ?>' type='text/css' media='all' />
 
 <form name="frmSendEmailsToUserSend" id='frmSendEmailsToUserSend' method="post" action=""> 
@@ -233,7 +242,7 @@
    <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;"> 
             
              <div class="postbox" style="width: 400px !important;"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
+              <h3 class="hndle"><span></span>All WordPress Themes In One Price</h3> 
               <div class="inside">
                    <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
 
@@ -243,9 +252,9 @@
           </div></div>
            
            <div class="postbox" style="width: 400px !important;"> 
-              <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
+              <h3 class="hndle"><span></span>Recommended WordPress Hostings</h3> 
               <div class="inside">
-                   <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="230" height="200" border="1" ALT="Click to Visit"></a></center>
+                   <center><a href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=nik00726-hs-wp"><img src="http://tracking.hostgator.com/img/WordPress_Hosting/300x250-animated.gif" width="250" height="250" border="0"></a></center>
 
                   <div style="margin:10px 5px">
           
@@ -430,9 +439,9 @@
           </div></div>
            
            <div class="postbox" style="width: 400px !important;"> 
-              <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
+              <h3 class="hndle"><span></span>Best WordPress Hostings</h3> 
               <div class="inside">
-                   <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="230" height="200" border="1" ALT="Click to Visit"></a></center>
+                   <center><a href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=nik00726-hs-wp"><img src="http://tracking.hostgator.com/img/WordPress_Hosting/300x250-animated.gif" width="250" height="250" border="0"></a></center>
 
                   <div style="margin:10px 5px">
           
