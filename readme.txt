@@ -22,7 +22,8 @@ In pro version admin can have Full wysiwyg editor available for typing email.
 **Find Mass Email Pro Plugin at [WordPress Mass Email Pro](http://www.i13websolution.com/wordpress-pro-plugins/wordpress-bulk-email-pro-plugin.html)**
 
 **Advance Newsletter Plugin at [Newsletter Email Subscription](http://www.i13websolution.com/wordpress-newsletter-subscription-pro-plugin.html)**
-ss
+
+
 =Features=
 
 1. select users and email them.
