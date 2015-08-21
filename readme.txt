@@ -3,7 +3,7 @@ Contributors:nik00726
 Tags:mass eamil,send email to users,WordPress Mailer,WordPress mass email,WordPress Email Marketing,WordPress search user and send emails,WordPress Mass Email,WordPress bulk email,WordPress email sender
 Donate link: http://www.i13websolution.com/donate_for_mass_email.php
 Requires at least:3.0
-Tested up to:4.2.2
+Tested up to:4.3
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
